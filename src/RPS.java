@@ -29,7 +29,7 @@ public class RPS
                         System.out.print("Player B make your move! [RPS]:");
                         playerB = in.nextLine();
                         if (playerB.equalsIgnoreCase("R")) {
-                            System.out.println("Its a tie!");
+                            System.out.println("Rock vs Rock! Its a tie!");
                             legalMoves = true;
                         } else if (playerB.equalsIgnoreCase("P")) {
                             System.out.println("Paper covers Rock! Player B wins!");
@@ -49,7 +49,7 @@ public class RPS
                         System.out.print("Player B make your move! [RPS]:");
                         playerB = in.nextLine();
                         if (playerB.equalsIgnoreCase("P")) {
-                            System.out.println("Its a tie!");
+                            System.out.println("Paper vs Paper! Its a tie!");
                             legalMoves = true;
                         } else if (playerB.equalsIgnoreCase("R")) {
                             System.out.println("Paper covers Rock! Player A wins!");
@@ -70,7 +70,7 @@ public class RPS
                         System.out.print("Player B make your move! [RPS]:");
                         playerB = in.nextLine();
                         if (playerB.equalsIgnoreCase("S")) {
-                            System.out.println("Its a tie!");
+                            System.out.println("Scissors vs Scissors! Its a tie!");
                             legalMoves = true;
                         } else if (playerB.equalsIgnoreCase("P")) {
                             System.out.println("Scissors cuts Paper! Player A wins!");
